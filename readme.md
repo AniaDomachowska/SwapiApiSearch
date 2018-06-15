@@ -4,6 +4,9 @@ There are two web servers:
 - StarWarsUI that shows list of characters in StarWars movies
 - StarWarsApi - API that returns list of characters.
 
+*After cloning the files from github please run **npm install** in the StarWarsUI folder*
+I still need to sort out getting the node packages in VS build.
+
 To run the page, please set up both websites and if neccessary change the API URL in the ClientApp\app\components\home\home.component.ts file. (sorry for lack of configuration)
 
 Api connects to https://swapi.co and returns Starwars characters under People resource. This resource  can be invoked by querying /People url:
@@ -26,5 +29,6 @@ In the project I've used:
 - I've tried to implement OData controller but failed. The swapi "search" clause would require me to parse the OData filter or even my own IQueryable + I never used it with angular 4. (I used angularjs so far)
 
 What is missing:
-- configuration of API (0,5h)
+- configuration of API url in StarWarsUi (0,5h)
 - more integration tests (1h)
+- getting the node packages in VS build.

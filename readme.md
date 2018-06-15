@@ -12,7 +12,7 @@ To run the page, please set up both websites and if neccessary change the API UR
 
 Api connects to https://swapi.co and returns Starwars characters under People resource. This resource  can be invoked by querying /People url:
 
-- /People - iterates through all pages on swapi and returns all characters in the database.
+- /People - iterates through all pages on swapi and returns all characters from the database.
 - /People?search=Che - filters StarWars people by names
 - /People/[id] - returns person of given Id
 

@@ -4,15 +4,15 @@ There are two web servers:
 - StarWarsUI that shows list of characters in StarWars movies
 - StarWarsApi - API that returns list of characters.
 
-*After cloning the files from github please run 
-**
-npm install
-npm install --save-dev webpack
-node_modules\.bin\webpack --config webpack.config.js
+After cloning the files from github please run
 
-** 
+**npm install**
 
-in the StarWarsUI folder*
+**npm install --save-dev webpack**
+
+**node_modules\.bin\webpack --config webpack.config.js**
+
+in the StarWarsUI folder
 
 I still need to sort out how to download the node packages in VS build.
 

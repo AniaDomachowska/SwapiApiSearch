@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTrooper", "SharpTrooper-master\SharpTrooper.csproj", "{64FA6A89-9042-42A7-A331-A8D6FBC79340}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsApi.Tests", "StarWarsApi.Tests\StarWarsApi.Tests.csproj", "{FAB2FBC6-6F57-46ED-92DB-3B07E25C77DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsApi", "StarWarsApi\StarWarsApi.csproj", "{B382D6A1-B0CF-410B-8D9D-59C2F857E082}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsUi", "StarWarsUi\StarWarsUi.csproj", "{0EE2BC62-E235-4EB3-AAF3-64F65021B0FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB2FBC6-6F57-46ED-92DB-3B07E25C77DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB2FBC6-6F57-46ED-92DB-3B07E25C77DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB2FBC6-6F57-46ED-92DB-3B07E25C77DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB2FBC6-6F57-46ED-92DB-3B07E25C77DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B382D6A1-B0CF-410B-8D9D-59C2F857E082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B382D6A1-B0CF-410B-8D9D-59C2F857E082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B382D6A1-B0CF-410B-8D9D-59C2F857E082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B382D6A1-B0CF-410B-8D9D-59C2F857E082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE2BC62-E235-4EB3-AAF3-64F65021B0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE2BC62-E235-4EB3-AAF3-64F65021B0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE2BC62-E235-4EB3-AAF3-64F65021B0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE2BC62-E235-4EB3-AAF3-64F65021B0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79AE4462-AE15-4B2C-96B8-403DFC4866F5}
+	EndGlobalSection
+EndGlobal

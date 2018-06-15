@@ -31,5 +31,5 @@ In the project I've used:
 
 What is missing:
 - configuration of API url in StarWarsUi (0,5h)
-- more integration tests (1h)
-- getting the node packages in VS build.
+- more integration tests (0,5-1h)
+- getting the node packages in VS build (1-2h)

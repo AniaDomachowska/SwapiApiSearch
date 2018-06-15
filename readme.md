@@ -8,7 +8,9 @@ After cloning the files from github please run
 
 **npm install**
 
-**node_modules\.bin\webpack --config webpack.config.vendor.js**
+**npm install --save-dev webpack**
+
+**node_modules\.bin\webpack --config webpack.config.js**
 
 in the StarWarsUI folder
 

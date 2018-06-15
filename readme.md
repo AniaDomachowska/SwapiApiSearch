@@ -5,7 +5,8 @@ There are two web servers:
 - StarWarsApi - API that returns list of characters.
 
 *After cloning the files from github please run **npm install** in the StarWarsUI folder*
-I still need to sort out getting the node packages in VS build.
+
+I still need to sort out how to download the node packages in VS build.
 
 To run the page, please set up both websites and if neccessary change the API URL in the ClientApp\app\components\home\home.component.ts file. (sorry for lack of configuration)
 
